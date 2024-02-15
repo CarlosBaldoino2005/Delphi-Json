@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/08 09:08:38.000.095,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/07/17 16:37:31.000.735,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/01 12:00:07.000.819,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/25 10:56:25.000.776,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2021/05/25 10:57:25.000.554,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJSONAtributes.dproj=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/05/25 10:57:48.000.380,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJSONAttributes.dproj=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJSONAtributes.dproj</Transaction>
+    <Transaction>2021/05/25 10:59:04.000.317,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJson.Model.Pedido.pas</Transaction>
+    <Transaction>2021/05/25 10:59:04.000.341,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJson.Model.Pessoa.pas</Transaction>
+    <Transaction>2021/05/25 10:59:04.000.414,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\FormMain.pas</Transaction>
+    <Transaction>2021/05/25 10:59:04.000.293,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJson.Model.Pedido.Item.pas</Transaction>
+    <Transaction>2021/05/25 11:23:42.000.249,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONAttributes\AulaJson.Model.Pessoa.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

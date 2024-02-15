@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{75B167F1-CCA8-439E-AC0B-18D8EF1B4538}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="JSONObject\AulaJSONObject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSONArray\AulaJSONArray.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSONReader_Writer\AulaJSONReaderWriter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSON Builder_Iterator\AulaJSONBuilderIterator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSONObjectToJSONObject\AulaJSONObjectToJSONObject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JSONAttributes\AulaJSONAttributes.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AulaJSONObject">
+        <MSBuild Projects="JSONObject\AulaJSONObject.dproj"/>
+    </Target>
+    <Target Name="AulaJSONObject:Clean">
+        <MSBuild Projects="JSONObject\AulaJSONObject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONObject:Make">
+        <MSBuild Projects="JSONObject\AulaJSONObject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaJSONArray">
+        <MSBuild Projects="JSONArray\AulaJSONArray.dproj"/>
+    </Target>
+    <Target Name="AulaJSONArray:Clean">
+        <MSBuild Projects="JSONArray\AulaJSONArray.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONArray:Make">
+        <MSBuild Projects="JSONArray\AulaJSONArray.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaJSONReaderWriter">
+        <MSBuild Projects="JSONReader_Writer\AulaJSONReaderWriter.dproj"/>
+    </Target>
+    <Target Name="AulaJSONReaderWriter:Clean">
+        <MSBuild Projects="JSONReader_Writer\AulaJSONReaderWriter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONReaderWriter:Make">
+        <MSBuild Projects="JSONReader_Writer\AulaJSONReaderWriter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaJSONBuilderIterator">
+        <MSBuild Projects="JSON Builder_Iterator\AulaJSONBuilderIterator.dproj"/>
+    </Target>
+    <Target Name="AulaJSONBuilderIterator:Clean">
+        <MSBuild Projects="JSON Builder_Iterator\AulaJSONBuilderIterator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONBuilderIterator:Make">
+        <MSBuild Projects="JSON Builder_Iterator\AulaJSONBuilderIterator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaJSONObjectToJSONObject">
+        <MSBuild Projects="JSONObjectToJSONObject\AulaJSONObjectToJSONObject.dproj"/>
+    </Target>
+    <Target Name="AulaJSONObjectToJSONObject:Clean">
+        <MSBuild Projects="JSONObjectToJSONObject\AulaJSONObjectToJSONObject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONObjectToJSONObject:Make">
+        <MSBuild Projects="JSONObjectToJSONObject\AulaJSONObjectToJSONObject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaJSONAttributes">
+        <MSBuild Projects="JSONAttributes\AulaJSONAttributes.dproj"/>
+    </Target>
+    <Target Name="AulaJSONAttributes:Clean">
+        <MSBuild Projects="JSONAttributes\AulaJSONAttributes.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaJSONAttributes:Make">
+        <MSBuild Projects="JSONAttributes\AulaJSONAttributes.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AulaJSONObject;AulaJSONArray;AulaJSONReaderWriter;AulaJSONBuilderIterator;AulaJSONObjectToJSONObject;AulaJSONAttributes"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AulaJSONObject:Clean;AulaJSONArray:Clean;AulaJSONReaderWriter:Clean;AulaJSONBuilderIterator:Clean;AulaJSONObjectToJSONObject:Clean;AulaJSONAttributes:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AulaJSONObject:Make;AulaJSONArray:Make;AulaJSONReaderWriter:Make;AulaJSONBuilderIterator:Make;AulaJSONObjectToJSONObject:Make;AulaJSONAttributes:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

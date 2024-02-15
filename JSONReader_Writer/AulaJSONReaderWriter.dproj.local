@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/06/08 09:08:38.000.095,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/07/17 16:37:31.000.735,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/03/01 12:00:07.000.819,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/05 16:56:23.000.431,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/05 18:07:34.000.022,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONReader_Writer\FormMain.pas</Transaction>
+    <Transaction>2021/05/05 18:07:34.000.022,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONReader_Writer\FormMain.dfm</Transaction>
+    <Transaction>2021/05/05 18:08:03.000.629,C:\Users\equip\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Aula JSON\JSONReader_Writer\AulaJSONReaderWriter.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
